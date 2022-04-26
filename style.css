@@ -1,0 +1,80 @@
+
+  .title{
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .form{
+      margin: auto;
+      max-width:450px;
+      text-align: center
+  }
+
+  input[type='submit'], button, [aria-label]{
+    cursor: pointer;
+  }
+  #edit-box{
+    display: none;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  td{
+      background-color: aliceblue;
+      padding-right: 10px;
+      text-align: left;
+  }
+
+  .to-do{
+      background: transparent !important;
+  }
+
+ 
+  .title2{
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .form2{
+      margin: auto;
+      max-width:450px;
+      text-align: center
+  }
+
+  input[type='submit'], button, [aria-label]{
+    cursor: pointer;
+  }
+  #edit-box2{
+    display: none;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  td{
+      background-color: aliceblue;
+      padding-right: 10px;
+      text-align: left;
+  }
+
+  .to-do2{
+      background: transparent !important;
+  }
+
+  .whole{
+      background-color: black;
+  }
+
+  .h1, .p1, .h2, .h3, #counter, #counter2{
+      color: azure;
+      font-family: "Times New Roman", Times, serif;
+  }
+
+  .h1, .h2{
+      text-decoration: underline;
+  }
+
+  #goals, #goals2, #add-goals, #add-goals2{
+    font-family: "Times New Roman", Times, serif;
+  }

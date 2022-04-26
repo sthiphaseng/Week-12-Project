@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Life Goals</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body class="whole">
+
+    <div class="title">
+        <h1 class="h1">Goals to Strive For...</h1>
+        <p class="p1">Short-Term Life Goals (under 2 years):</p>
+    </div>
+
+<div class="form">
+    <form action="javascript:void(0);" method="POST" onsubmit="app.Add()"> 
+    <input type="text" id="add-goals" placeholder="Short-Term Goals">
+    <input type="submit" value="Add" class="btn btn-primary">
+    </form>
+    <p class="p1">You Have: </p>
+    <p id="counter"></p>
+
+    <table>
+    <tr class="to-do">
+        <th><h3 class="h3">The Future is Now:</h3></th>
+    </tr>
+        <tbody id="goals">
+        </tbody>
+    </table>
+</div>
+
+<div id="edit-box" role="aria-hidden">
+    <form action="javascript:void(0);" method="POST" id="save-edit">
+      <input type="text" id="edit-goals">
+      <input type="submit" value="Save" class="btn btn-success"/> <a onclick="CloseInput()" aria-label="Close">&#10006;</a>
+    </form>
+</div>
+
+    <div class="title2">
+        <h2 class="h2">Not in a Rush?</h2>
+        <p class="p1">Long-Term Life Goals (2 years+):</p>
+    </div>
+
+<div class="form2">
+    <form action="javascript:void(0);" method="POST" onsubmit="app2.Add()"> 
+    <input type="text" id="add-goals2" placeholder="Long-Term Goals">
+    <input type="submit" value="Add" class="btn btn-primary">
+    </form>
+    <p class="p1">You Have: </p>
+    <p id="counter2"></p>
+
+    <table>
+    <tr class="to-do2">
+        <th><h3 class="h3">Slow and Steady:</h3></th>
+    </tr>
+        <tbody id="goals2">
+        </tbody>
+    </table>
+</div>
+
+<div id="edit-box2" role="aria-hidden">
+    <form action="javascript:void(0);" method="POST" id="save-edit2">
+        <input type="text" id="edit-goals2">
+        <input type="submit" value="Save" class="btn btn-success2"/> <a onclick="CloseInput()" aria-label="Close">&#10006;</a>
+    </form>
+</div>
+
+<script src="app.js"></script>
+<script src="app2.js"></script>
+</body>
+</html>
